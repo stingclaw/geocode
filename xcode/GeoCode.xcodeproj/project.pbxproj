@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4595C2A01C581D5300CAC2FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4595C29F1C581D5300CAC2FB /* AppDelegate.m */; };
+		4595C2A31C581D5300CAC2FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4595C2A21C581D5300CAC2FB /* main.m */; };
+		4595C2A61C581D5300CAC2FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4595C2A51C581D5300CAC2FB /* ViewController.m */; };
+		4595C2A91C581D5300CAC2FB /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 4595C2A81C581D5300CAC2FB /* Document.m */; };
+		4595C2AB1C581D5300CAC2FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4595C2AA1C581D5300CAC2FB /* Assets.xcassets */; };
+		4595C2AE1C581D5300CAC2FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4595C2AC1C581D5300CAC2FB /* Main.storyboard */; };
+		4595C2B91C581D5400CAC2FB /* GeoCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4595C2B81C581D5400CAC2FB /* GeoCodeTests.m */; };
+		4595C2C41C581D5400CAC2FB /* GeoCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4595C2C31C581D5400CAC2FB /* GeoCodeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4595C2B51C581D5400CAC2FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4595C2931C581D5300CAC2FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4595C29A1C581D5300CAC2FB;
+			remoteInfo = GeoCode;
+		};
+		4595C2C01C581D5400CAC2FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4595C2931C581D5300CAC2FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4595C29A1C581D5300CAC2FB;
+			remoteInfo = GeoCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4595C29B1C581D5300CAC2FB /* GeoCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4595C29E1C581D5300CAC2FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4595C29F1C581D5300CAC2FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4595C2A21C581D5300CAC2FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4595C2A41C581D5300CAC2FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4595C2A51C581D5300CAC2FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4595C2A71C581D5300CAC2FB /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		4595C2A81C581D5300CAC2FB /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		4595C2AA1C581D5300CAC2FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4595C2AD1C581D5300CAC2FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4595C2AF1C581D5300CAC2FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4595C2B41C581D5400CAC2FB /* GeoCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4595C2B81C581D5400CAC2FB /* GeoCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoCodeTests.m; sourceTree = "<group>"; };
+		4595C2BA1C581D5400CAC2FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4595C2BF1C581D5400CAC2FB /* GeoCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4595C2C31C581D5400CAC2FB /* GeoCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoCodeUITests.m; sourceTree = "<group>"; };
+		4595C2C51C581D5400CAC2FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4595C2981C581D5300CAC2FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4595C2B11C581D5400CAC2FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4595C2BC1C581D5400CAC2FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4595C2921C581D5300CAC2FB = {
+			isa = PBXGroup;
+			children = (
+				4595C29D1C581D5300CAC2FB /* GeoCode */,
+				4595C2B71C581D5400CAC2FB /* GeoCodeTests */,
+				4595C2C21C581D5400CAC2FB /* GeoCodeUITests */,
+				4595C29C1C581D5300CAC2FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4595C29C1C581D5300CAC2FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4595C29B1C581D5300CAC2FB /* GeoCode.app */,
+				4595C2B41C581D5400CAC2FB /* GeoCodeTests.xctest */,
+				4595C2BF1C581D5400CAC2FB /* GeoCodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4595C29D1C581D5300CAC2FB /* GeoCode */ = {
+			isa = PBXGroup;
+			children = (
+				4595C29E1C581D5300CAC2FB /* AppDelegate.h */,
+				4595C29F1C581D5300CAC2FB /* AppDelegate.m */,
+				4595C2A41C581D5300CAC2FB /* ViewController.h */,
+				4595C2A51C581D5300CAC2FB /* ViewController.m */,
+				4595C2A71C581D5300CAC2FB /* Document.h */,
+				4595C2A81C581D5300CAC2FB /* Document.m */,
+				4595C2AA1C581D5300CAC2FB /* Assets.xcassets */,
+				4595C2AC1C581D5300CAC2FB /* Main.storyboard */,
+				4595C2AF1C581D5300CAC2FB /* Info.plist */,
+				4595C2A11C581D5300CAC2FB /* Supporting Files */,
+			);
+			path = GeoCode;
+			sourceTree = "<group>";
+		};
+		4595C2A11C581D5300CAC2FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4595C2A21C581D5300CAC2FB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4595C2B71C581D5400CAC2FB /* GeoCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4595C2B81C581D5400CAC2FB /* GeoCodeTests.m */,
+				4595C2BA1C581D5400CAC2FB /* Info.plist */,
+			);
+			path = GeoCodeTests;
+			sourceTree = "<group>";
+		};
+		4595C2C21C581D5400CAC2FB /* GeoCodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4595C2C31C581D5400CAC2FB /* GeoCodeUITests.m */,
+				4595C2C51C581D5400CAC2FB /* Info.plist */,
+			);
+			path = GeoCodeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4595C29A1C581D5300CAC2FB /* GeoCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4595C2C81C581D5400CAC2FB /* Build configuration list for PBXNativeTarget "GeoCode" */;
+			buildPhases = (
+				4595C2971C581D5300CAC2FB /* Sources */,
+				4595C2981C581D5300CAC2FB /* Frameworks */,
+				4595C2991C581D5300CAC2FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoCode;
+			productName = GeoCode;
+			productReference = 4595C29B1C581D5300CAC2FB /* GeoCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4595C2B31C581D5400CAC2FB /* GeoCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4595C2CB1C581D5400CAC2FB /* Build configuration list for PBXNativeTarget "GeoCodeTests" */;
+			buildPhases = (
+				4595C2B01C581D5400CAC2FB /* Sources */,
+				4595C2B11C581D5400CAC2FB /* Frameworks */,
+				4595C2B21C581D5400CAC2FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4595C2B61C581D5400CAC2FB /* PBXTargetDependency */,
+			);
+			name = GeoCodeTests;
+			productName = GeoCodeTests;
+			productReference = 4595C2B41C581D5400CAC2FB /* GeoCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4595C2BE1C581D5400CAC2FB /* GeoCodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4595C2CE1C581D5400CAC2FB /* Build configuration list for PBXNativeTarget "GeoCodeUITests" */;
+			buildPhases = (
+				4595C2BB1C581D5400CAC2FB /* Sources */,
+				4595C2BC1C581D5400CAC2FB /* Frameworks */,
+				4595C2BD1C581D5400CAC2FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4595C2C11C581D5400CAC2FB /* PBXTargetDependency */,
+			);
+			name = GeoCodeUITests;
+			productName = GeoCodeUITests;
+			productReference = 4595C2BF1C581D5400CAC2FB /* GeoCodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4595C2931C581D5300CAC2FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Chip Thrasher";
+				TargetAttributes = {
+					4595C29A1C581D5300CAC2FB = {
+						CreatedOnToolsVersion = 7.0.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					4595C2B31C581D5400CAC2FB = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 4595C29A1C581D5300CAC2FB;
+					};
+					4595C2BE1C581D5400CAC2FB = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 4595C29A1C581D5300CAC2FB;
+					};
+				};
+			};
+			buildConfigurationList = 4595C2961C581D5300CAC2FB /* Build configuration list for PBXProject "GeoCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4595C2921C581D5300CAC2FB;
+			productRefGroup = 4595C29C1C581D5300CAC2FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4595C29A1C581D5300CAC2FB /* GeoCode */,
+				4595C2B31C581D5400CAC2FB /* GeoCodeTests */,
+				4595C2BE1C581D5400CAC2FB /* GeoCodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4595C2991C581D5300CAC2FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4595C2AB1C581D5300CAC2FB /* Assets.xcassets in Resources */,
+				4595C2AE1C581D5300CAC2FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4595C2B21C581D5400CAC2FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4595C2BD1C581D5400CAC2FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4595C2971C581D5300CAC2FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4595C2A91C581D5300CAC2FB /* Document.m in Sources */,
+				4595C2A61C581D5300CAC2FB /* ViewController.m in Sources */,
+				4595C2A31C581D5300CAC2FB /* main.m in Sources */,
+				4595C2A01C581D5300CAC2FB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4595C2B01C581D5400CAC2FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4595C2B91C581D5400CAC2FB /* GeoCodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4595C2BB1C581D5400CAC2FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4595C2C41C581D5400CAC2FB /* GeoCodeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4595C2B61C581D5400CAC2FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4595C29A1C581D5300CAC2FB /* GeoCode */;
+			targetProxy = 4595C2B51C581D5400CAC2FB /* PBXContainerItemProxy */;
+		};
+		4595C2C11C581D5400CAC2FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4595C29A1C581D5300CAC2FB /* GeoCode */;
+			targetProxy = 4595C2C01C581D5400CAC2FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4595C2AC1C581D5300CAC2FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4595C2AD1C581D5300CAC2FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4595C2C61C581D5400CAC2FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4595C2C71C581D5400CAC2FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4595C2C91C581D5400CAC2FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = GeoCode;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GeoCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chipthrasher.GeoCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4595C2CA1C581D5400CAC2FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = GeoCode;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GeoCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chipthrasher.GeoCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4595C2CC1C581D5400CAC2FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GeoCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chipthrasher.GeoCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoCode.app/Contents/MacOS/GeoCode";
+			};
+			name = Debug;
+		};
+		4595C2CD1C581D5400CAC2FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GeoCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chipthrasher.GeoCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoCode.app/Contents/MacOS/GeoCode";
+			};
+			name = Release;
+		};
+		4595C2CF1C581D5400CAC2FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GeoCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chipthrasher.GeoCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GeoCode;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4595C2D01C581D5400CAC2FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GeoCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chipthrasher.GeoCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GeoCode;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4595C2961C581D5300CAC2FB /* Build configuration list for PBXProject "GeoCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4595C2C61C581D5400CAC2FB /* Debug */,
+				4595C2C71C581D5400CAC2FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4595C2C81C581D5400CAC2FB /* Build configuration list for PBXNativeTarget "GeoCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4595C2C91C581D5400CAC2FB /* Debug */,
+				4595C2CA1C581D5400CAC2FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4595C2CB1C581D5400CAC2FB /* Build configuration list for PBXNativeTarget "GeoCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4595C2CC1C581D5400CAC2FB /* Debug */,
+				4595C2CD1C581D5400CAC2FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4595C2CE1C581D5400CAC2FB /* Build configuration list for PBXNativeTarget "GeoCodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4595C2CF1C581D5400CAC2FB /* Debug */,
+				4595C2D01C581D5400CAC2FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4595C2931C581D5300CAC2FB /* Project object */;
+}
