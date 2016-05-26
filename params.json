@@ -1,6 +1,6 @@
 {
   "name": "GeoCode",
   "tagline": "A simple open source text editor for OSX﻿",
-  "body": "- [View Latest Updates](https://github.com/stingclaw/geocode/blob/master/updates.md)",
+  "body": "GeoCode is a free, open-source plain text editor for OSX, created mostly as a way for me to learn Cocoa programming. It centers pretty highly on keyboard shortcuts, and is currently still in public alpha.",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
